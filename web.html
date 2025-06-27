@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <title>H&E</title>
+  <!-- rsvp -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://unpkg.com/intl-tel-input@17/build/css/intlTelInput.css" rel="stylesheet">
+  <!--  -->
+  <link rel="stylesheet" href="web.css">
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Emilys+Candy&display=swap" rel="stylesheet">
+  <!-- animation -->
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+  <div class="text" data-aos="fade-down">
+    <h1>Wedding Day</h1>
+  </div>
+  <div class="main" data-aos="zoom-in">
+    <div class="title">04<br>10<br>2025</div>
+  </div>
+  <div class="container" data-aos="fade-up">
+    <div class="text2" data-aos="fade-right">
+      <h2>Հարգելի՛ հյուրեր</h2>
+      <h3>Մենք սկսում ենք մեր համատեղ կյանքի նոր պատմությունը։Սիրով հրավիրում ենք Ձեզ ներկա գտնվելու մեր հարսանյաց
+        արարողությանը։Ծանոթացեք ծրագրին և հաստատեք Ձեր ներկայությունը մինչև սեպտեմբերի 15-ը։</h3>
+    </div>
+    <div class="calendar" data-aos="fade-left">
+      <h2>Հոկտեմբեր 2025</h2>
+      <div class="day-names">
+        <div>Երկ</div>
+        <div>Երք</div>
+        <div>Չրք</div>
+        <div>Հնգ</div>
+        <div>Ուրբ</div>
+        <div>Շբթ</div>
+        <div>Կիր</div>
+      </div>
+      <div class="dates">
+        <div class="empty"></div>
+        <div class="empty"></div>
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4 <img src="img/12.webp" alt=""></div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+        <div>10</div>
+        <div>11</div>
+        <div>12</div>
+        <div>13</div>
+        <div>14</div>
+        <div>15</div>
+        <div>16</div>
+        <div>17</div>
+        <div>18</div>
+        <div>19</div>
+        <div>20</div>
+        <div>21</div>
+        <div>22</div>
+        <div>23</div>
+        <div>24</div>
+        <div>25</div>
+        <div>26</div>
+        <div>27</div>
+        <div>28</div>
+        <div>29</div>
+        <div>30</div>
+        <div>31</div>
+      </div>
+    </div>
+  </div>
+  <div class="grid" data-aos="zoom-in-up">
+    <div class="photo-grid">
+      <img src="img/1.jpg" alt="img">
+      <img src="img/3.jpg" alt="img">
+      <img src="img/4.jpg" alt="img">
+      <img src="img/8.jpg" alt="img">
+    </div>
+    <!-- Modal -->
+    <div class="modal" id="modal" onclick="closeModal()">
+      <img id="modal-img" src="" alt="">
+    </div>
+  </div>
+
+  <div class="timing-title" data-aos="fade-down">
+    <h1>Timing <br>
+      <h2>&</h2> <br>
+      <h3>Location</h3>
+    </h1>
+  </div>
+  <div class="timing" data-aos="fade-up">
+    <div class="plan" data-aos="fade-right">
+      <div class="men">
+        <img src="img/g6.webp" alt="img">
+        <h5>Փեսայի Տուն <br>
+          <h4>Ժամը՝ 10:00</h4>
+        </h5>
+        <a
+          href="https://yandex.com/maps/105793/kotayk/house/YE0YcwFjQEcGQFpqfX5yeXVkYQ==/?ll=44.564792%2C40.238351&z=18.72">
+          <p>Ինչպես հասնել</p>
+        </a>
+      </div>
+      <div class="church">
+        <img src="img/g7.png" alt="img">
+        <h5>Պսակադրության արարողությու<br>
+          <h4>Ժամը՝ 14:00</h4>
+        </h5>
+        <a href="https://yandex.com/maps/org/saint_hovhannes_church/27183894488/?ll=44.634673%2C40.275730&z=16.95">
+          <p>Ինչպես հասնել</p>
+        </a>
+      </div>
+      <div class="event">
+        <img src="img/g3.webp" alt="img">
+        <h5>Տոնական խնջույք` <br>Prime Hall <br>
+          <h4>Ժամը՝ 17:00</h4>
+        </h5>
+        <a
+          href="https://yandex.com/maps/org/17885421655/?ll=44.483591%2C40.221397&mode=search&sctx=ZAAAAAgBEAAaKAoSCb1TAfc8UUZAEVdD4h5LI0RAEhIJm1Wfq63Yjz8RtcagE0IHfT8iBgABAgMEBSgKOABAoIsHSAFiJXJlbGV2X3JhbmtpbmdfZm9ybXVsYT1sMl9kYzgwNzU2OV9leHBiLHJlbGV2X3J1YnJpY19yYW5raW5nX2Zvcm11bGE9bDJfZGM4MDc1NjlfZXhwYihyZWxldl9yYW5raW5nX2wxX2Zvcm11bGE9bDFfZGM4MTA3MDVfZXhwYh9yYW5raW5nX2Zvcm11bGE9bDJfZGM4MDc1NjlfZXhwagJhbZ0BzczMPaABAKgBAL0B%2FqB%2BysIBBdfAt9BCggIKcHJpbWUgaGFsbIoCAJICAJoCDGRlc2t0b3AtbWFwcw%3D%3D&sll=44.483591%2C40.221397&sspn=0.065293%2C0.029780&text=prime%20hall&z=14.88">
+          <p>Ինչպես հասնել</p>
+        </a>
+      </div>
+    </div>
+    <div class="line" data-aos="zoom-in">
+      <img src="img/line.png" alt="iline">
+    </div>
+    <div class="plan" data-aos="fade-left">
+      <div class="bride">
+        <img src="img/g5.webp" alt="img">
+        <h5>Հարսի Տուն <br>
+          <h4>Ժամը՝ 11:00 </h4>
+        </h5>
+        <a
+          href="https://yandex.com/maps/10262/yerevan/house/YE0YcwVhTkwHQFpqfX13eHxlZw==/?ll=44.521790%2C40.169063&z=17.12">
+          <p>Ինչպես հասնել</p>
+        </a>
+      </div>
+      <div class="men">
+        <img src="img/g6.webp" alt="img">
+        <h5>Փեսայի Տուն <br>
+          <h4>Ժամը՝ 15:00</h4>
+        </h5>
+        <a
+          href="https://yandex.com/maps/105793/kotayk/house/YE0YcwFjQEcGQFpqfX5yeXVkYQ==/?ll=44.564792%2C40.238351&z=18.72">
+          <p>Ինչպես հասնել</p>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="timer" data-aos="fade-up">
+    <h1>4 Հոկտեմբեր 2025</h1>
+    <h2>Մեր հարսանիքին մնացել է՝ </h2>
+    <div class="countdown" data-aos="zoom-in-up">
+      <div><span id="days">00</span>
+        <div class="label">Օր</div>
+      </div>
+      <div><span id="hours">00</span>
+        <div class="label">ժամ</div>
+      </div>
+      <div><span id="minutes">00</span>
+        <div class="label">Րոպե</div>
+      </div>
+      <div><span id="seconds">00</span>
+        <div class="label">Վարկյան</div>
+      </div>
+    </div>
+    <div class="detail" data-aos="fade-up">
+      <div class="title">DETAILS</div>
+      <div class="text">Ձեզ հետ բերեք ՍԵՐ, ժպիտներ ու անսահման դրական էմոցիաներ, ինչպես նաև հարմարավետ կոշիկներ՝ պարելու
+        համար։ <br> Թույլ տանք, որ այդ օրը սպիտակ զգեստով լինի միայն հարսնացուն 🤍</div>
+    </div>
+
+
+    <!-- hastatel nerkayutyuny -->
+
+    <div class="rsvp" data-aos="fade-up">
+      <form class="form-container" id="rsvp-form" action="https://script.google.com/macros/s/AKfycbz6vObuonP5r2Fd3t9ogsEXKq9RT62pN3szUfa3nWh0Oi_0ERpz0G4tbPVbGbvfL4wk/exec" method="POST">
+        <h2>Խնդրում ենք հաստատել Ձեր<br><strong>ներկայությունը մինչև սեպտեմբերի 15-ը։</strong>.</h2>
+
+        <label>Կկարողանա՞ք ներկա գտնվել միջոցառմանը</label>
+        <div class="radio-group">
+          <label><input type="radio" name="attendance" value="Yes" required> Այո, մեծ հաճույքով</label>
+          <label><input type="radio" name="attendance" value="No"> Ցավոք, ոչ</label>
+        </div>
+
+        <label>Նշեք Ձեր և մասնակից անձանց անուն/ազգանունը</label>
+        <input type="text" name="guests" placeholder="Հյուրի անունը" required>
+
+        <label>Գրեք Ձեր հեռախոսահամարը</label>
+        <input type="tel" id="phone" name="phone" required>
+
+        <label>Ու՞մ կողմից եք հրավիրված</label>
+        <div class="radio-group">
+          <label><input type="radio" name="invited_by" value="Հարութ" required> Հարութ</label>
+          <label><input type="radio" name="invited_by" value="Էվելինա"> Էվելինա</label>
+        </div>
+        <!-- <label>Best wishes to the couple</label>
+    <input type="text" name="wishes" placeholder="Your wishes">
+    <div class="note">By the way, the best one will get a gift.</div> -->
+
+        <button class="submit" type="submit">ՈՒՂԱՐԿԵԼ</button>
+        <div class="success-message" id="success">Thank you! Your RSVP has been sent.</div>
+      </form>
+    </div>
+    <!--  -->
+  </div>
+
+  <button class="mute-btn" id="muteBtn">🔊</button>
+
+  <audio id="bg-music" src="mp3/aram_asatryan_hay_es_du.mp3" loop></audio>
+
+  <!-- rsvp -->
+  <script src="https://unpkg.com/intl-tel-input@17/build/js/intlTelInput.min.js"></script>
+
+  <!-- AOS script -->
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+
+  <script>
+    // rsvp
+    const phoneInputField = document.querySelector("#phone");
+    const iti = window.intlTelInput(phoneInputField, {
+      initialCountry: "am",
+      onlyCountries: ["am"],
+      nationalMode: false,
+      utilsScript: "https://unpkg.com/intl-tel-input@17/build/js/utils.js"
+    });
+    // 
+    // rsvp
+    const form = document.getElementById("rsvp-form");
+    const successMessage = document.getElementById("success");
+
+    // animation
+    AOS.init({
+      duration: 1000,
+      once: false // animacian krknvuma //true-i depqum voch
+    });
+    // 
+
+    // timer
+    const targetDate = new Date("2025-10-04T00:00:00").getTime();
+
+    function updateTimer() {
+      const now = new Date().getTime();
+      const distance = targetDate - now;
+
+      if (distance <= 0) {
+        document.querySelector(".timer").innerHTML = "<h1>Событие наступило!</h1>";
+        return;
+      }
+
+      const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+      document.getElementById("days").textContent = days.toString().padStart(2, '0');
+      document.getElementById("hours").textContent = hours.toString().padStart(2, '0');
+      document.getElementById("minutes").textContent = minutes.toString().padStart(2, '0');
+      document.getElementById("seconds").textContent = seconds.toString().padStart(2, '0');
+    }
+
+    updateTimer();
+    setInterval(updateTimer, 1000);
+
+    // 
+    // 
+    const music = document.getElementById("bg-music");
+    const muteBtn = document.getElementById("muteBtn");
+
+    window.addEventListener("load", () => {
+      if (sessionStorage.getItem("allowMusic") === "true") {
+        music.play().catch((err) => {
+          console.log("Ошибка воспроизведения:", err.message);
+        });
+      }
+    });
+
+    muteBtn.addEventListener("click", () => {
+      if (music.muted || music.volume === 0) {
+        music.muted = false;
+        music.volume = 1;
+        muteBtn.textContent = "🔊";
+      } else {
+        music.muted = true;
+        muteBtn.textContent = "🔇";
+      }
+    });
+    // 
+    // грид
+    function openModal(src) {
+      document.getElementById("modal-img").src = src;
+      document.getElementById("modal").style.display = "flex";
+    }
+
+    function closeModal() {
+      document.getElementById("modal").style.display = "none";
+    }
+  </script>
+</body>
+
+</html>
